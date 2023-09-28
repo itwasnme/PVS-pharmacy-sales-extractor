@@ -1,0 +1,89 @@
+(1) NUMBER OF SCRIPTS PER DAY: 93
+
+
+(2) PERCENTAGE OF CONTROLLED SUBSTANCES SOLD: 12.75% 
+
+
+(3) PERCENTAGE OF CONTROLLED SUBSTANCES PAID IN CASH: 11.11% 
+
+
+(4) TOP FIVE DOCTORS FOR CONTROLLED SUBTANCES (DOSAGE UNITS): 
+
+Physician Name
+Alejo    4055
+Juan     3232
+Sarah    3230
+Micky    3124
+Nick     2540
+
+
+(5) PRESCRIBERS AND CORRESPONDING CS WITH OVER 30% OF PRESCRIPTIONS: 
+
+Prescriber: Ana, Drug: Carisoprodol Oral Tablet 350 MG, Percentage: 34.7826% 
+Prescriber: Bob, Drug: Hydrocodone-Acetaminophen Oral Tablet 10-325 MG, Percentage: 31.2500% 
+Prescriber: Fred, Drug: Hydrocodone-Acetaminophen Oral Tablet 10-325 MG, Percentage: 38.0952% 
+
+
+(6) SPATIAL CONCERNS: 
+
+Patient ID: 36, received a prescription where the distance was over 100 miles between: Pharmacy to Physician 
+Patient ID: 36, received a prescription where the distance was over 100 miles between: Pharmacy to Physician 
+Patient ID: 36, received a prescription where the distance was over 100 miles between: Pharmacy to Physician 
+Patient ID: 87, received a prescription where the distance was over 100 miles between: Pharmacy to Physician, Physician to Patient 
+Patient ID: 148, received a prescription where the distance was over 100 miles between: Pharmacy to Physician, Physician to Patient 
+Patient ID: 297, received a prescription where the distance was over 100 miles between: Pharmacy to Physician, Physician to Patient 
+Patient ID: 297, received a prescription where the distance was over 100 miles between: Pharmacy to Physician, Physician to Patient 
+Patient ID: 432, received a prescription where the distance was over 100 miles between: Pharmacy to Physician, Physician to Patient 
+
+
+(7) AVERAGE DOSAGE UNITS FOR OXYCODONE FAMILY PER MONTH: 4420 
+
+
+(8) AVERAGE DOSAGE UNITS FOR HYDROCODONE FAMILY PER MONTH: 11318 
+
+
+(9) PATIENTS RECEIVING A COMBINATION OF TWO OR MORE SHORT-ACTING PAIN MEDICATION: 
+
+Patient ID: 459, Medications: HYDROCODONE, OXYCODONE 
+Patient ID: 506, Medications: MORPHINE, HYDROCODONE 
+Patient ID: 577, Medications: OXYCODONE, MORPHINE 
+Patient ID: 581, Medications: HYDROMORPHONE, OXYCODONE 
+Patient ID: 596, Medications: OXYCODONE, HYDROCODONE 
+Patient ID: 599, Medications: OXYCODONE, HYDROCODONE 
+
+
+(10) 'HOLY TRINITY' COMBINATIONS: 
+
+Patient ID: 19, Medications: HYDROCODONE, ZOLPIDEM, CARISOPRODOL 
+Patient ID: 24, Medications: BENZODIAZEPINES, METHADONE, CARISOPRODOL 
+Patient ID: 138, Medications: ZOLPIDEM, HYDROCODONE, CARISOPRODOL 
+Patient ID: 187, Medications: HYDROCODONE, BENZODIAZEPINES, CARISOPRODOL 
+Patient ID: 351, Medications: CARISOPRODOL, BENZODIAZEPINES, HYDROCODONE, MORPHINE 
+
+
+(11) TOTAL NUMBER OF PATIENTS WITH MULTIPLE PRESCRIBERS FOR CONTROLLED SUBSTANCES: 69
+
+
+(12) PATIENT ID's WITH PHENTERMINE PRESCRIPTIONS FOR MORE THAN 1 PILL/DAY: [432]
+
+
+(13) PATIENTS RECEIVING A HIGH DOSAGE OF OXYCODONE: 
+
+   Patient ID                                      Drug Name  Qty  Days Supply  Number of Prescriptions
+0          62                OxyCODONE HCl Oral Tablet 30 MG  180           30                        3
+1          67  Oxycodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        3
+2         491                OxyCODONE HCl Oral Tablet 10 MG  180           24                        2
+3         537  Oxycodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        1
+4         567                OxyCODONE HCl Oral Tablet 15 MG  180           30                        1
+5         599  Oxycodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        1
+
+
+(14) PATIENTS RECEIVING A HIGH DOSAGE OF HYDROCODONE: 
+
+   Patient ID                                        Drug Name  Qty  Days Supply  Number of Prescriptions
+0          85  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        3
+1         369  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        3
+2         409  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        3
+3         471  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        2
+4         488  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        2
+5         607  Hydrocodone-Acetaminophen Oral Tablet 10-325 MG  180           30                        1
