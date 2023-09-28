@@ -44,7 +44,7 @@ df = pd.read_csv (file_name)
 columnds_to_drop = ['NDC', 'DEA#', 'Family Old', 'Family 6', 'Family 8', 'Family 10']
 df = df.drop(columns=columnds_to_drop)
 
-#Scripts per day
+# Scripts per day
 df['Fill Date'] = pd.to_datetime(df['Fill Date'])
 unique_dates_count = df['Fill Date'].nunique()
 num_rows = df.shape[0] 
@@ -118,7 +118,7 @@ for index, row in filtered_df.iterrows():
 
 file.write("\n\n")
 
-#Oxy units per month
+# Oxy units per month
 months = unique_dates_count/30
 sum_qty_oxycodone = df[(df['Family'] == 'OXYCODONE') & (df['Drug Name'].str.contains('Tablet'))]['Qty'].sum()
 oxy_per_month = int(sum_qty_oxycodone/months)
@@ -126,7 +126,7 @@ file.write(f"(7) AVERAGE DOSAGE UNITS FOR OXYCODONE FAMILY PER MONTH: {oxy_per_m
 
 file.write("\n\n")
 
-#Hydro units per month
+# Hydro units per month
 months = unique_dates_count/30
 sum_qty_hydrocodone = df[(df['Family'] == 'HYDROCODONE') & (df['Drug Name'].str.contains('Tablet'))]['Qty'].sum()
 hydro_per_month = int(sum_qty_hydrocodone/months)
@@ -134,7 +134,7 @@ file.write(f"(8) AVERAGE DOSAGE UNITS FOR HYDROCODONE FAMILY PER MONTH: {hydro_p
 
 file.write("\n\n")
 
-#2 or more short acting pain medication
+# Two or more short acting pain medication
 file.write("(9) PATIENTS RECEIVING A COMBINATION OF TWO OR MORE SHORT-ACTING PAIN MEDICATION: \n\n")
 filtered_df = df.dropna(subset=['Family'])
 filtered_df = filtered_df[(~filtered_df['Drug Name'].str.contains('Solution')) & (~filtered_df['Drug Name'].str.contains('Liquid')) & (~filtered_df['Drug Name'].str.contains('Patch')) 
@@ -154,7 +154,7 @@ for patient_id, unique_medications in patient_medication_groups.items():
 
 file.write("\n\n")
 
-#Trinity combinations
+# Trinity combinations
 file.write("(10) 'HOLY TRINITY' COMBINATIONS: \n\n")
 filtered_df = df.dropna(subset=['Family'])
 filtered_df = filtered_df[(~filtered_df['Family'].str.contains('PREGABALIN')) & (~filtered_df['Family'].str.contains('TESTOSTERONE'))
